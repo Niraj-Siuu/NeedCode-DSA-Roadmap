@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-class Solution {
+class containsDuplicateClass {
     public boolean containsDuplicate(int[] nums) {
     HashMap<Integer, Integer> frequencyMap = new HashMap<>();
         // Iterate through the array
