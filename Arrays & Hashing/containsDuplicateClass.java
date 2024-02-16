@@ -7,7 +7,7 @@ class containsDuplicateClass {
         for (int num : nums) {
             // If the element already exists in the HashMap, return true
             if (frequencyMap.containsKey(num)) {
-                return true;
+                return true;   
             } else {
                 // Otherwise, add the element to the HashMap with a frequency of 1
                 frequencyMap.put(num, 1);
